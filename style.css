@@ -1,0 +1,71 @@
+.background{
+	background: url('img/image 2.jpg');
+	width: 100%;
+	padding: 100px 0px;
+	background-size: cover;
+	background-position: 50% 50%;
+}
+.form{
+	border-radius: 15px;
+}
+section{
+	padding: 50px 0px;
+}
+.width{
+	max-width: 40%;	
+}
+.card{
+	border: none !important;
+}
+.color{
+	color: #F27387;
+}
+::marker{
+	color: #F27387;
+}
+table thead tr{
+	background: #fff;
+}
+.row1{
+	flex-wrap: nowrap !important;
+}
+.red{
+	background-color: #F27387;
+}
+.height1{
+	border-bottom:2px solid #F27387;
+}
+blockquote{
+    display: block;
+    position: relative;
+    width: 100%;
+    padding: 1rem; 
+    /* font-size: 1.5rem; */
+    line-height: 1.5rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+blockquote::before{
+    content: "\201C";
+    top: 10px;
+    left: -20px;
+    color:#F27387;
+}
+blockquote::after{
+    content: "\201D";
+    bottom: -6px;
+    color: #F27387;
+    margin-left: 72%;
+} 
+blockquote::before, blockquote::after{
+    font-size: 6rem; 
+    position: absolute;
+}
+.bold{
+    font-size: 175%;
+}
+.implies1{
+    color: #F27387;
+    margin-left: 42%;
+    margin-top: -10%;
+    margin-bottom: 11px;
+}
